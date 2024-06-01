@@ -1,0 +1,109 @@
+/* Global CSS */
+:root {
+  --primary: #5e3bee;
+  --heading-color: #282938;
+  --bg-shade: #f5fcff;
+  --github: #e62872;
+  --darkblue: #1c1e53;
+  --black: #000000;
+  --white: #ffffff;
+}
+.hero--section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 133.333px 85.333px 133.333px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+    background-color: var(--bg-shade);
+  }
+  .hero--section--content-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+  }
+  .hero--section--content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 21.333px;
+  }
+  .hero--section--content--box > button {
+    margin-top: 21.333px;
+  }
+  .hero--section--title {
+    color: var(--heading-color);
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 90px;
+    align-self: stretch;
+    color: #5e3bee;
+  }
+  .hero--section--title--color {
+    color: var(--primary);
+  }
+  .hero--section-description {
+    color: var(--darkblue);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+  }
+  .hero--section--img {
+    display: flex;
+  }
+  .hero--section--img > img {
+    width: 100%;
+    height: 100%;
+  }
+  .section--title {
+    color: var(--heading-color);
+    font-size: 30px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    display: flex;
+    align-items: flex-start;
+    
+  }
+
+  .eduzolve-mission{
+    font-size: 20px;
+  }
+
+
+
+  @media only screen and (max-width: 1200px) {
+    .btn-outline-primary {
+      display: none;
+    }
+    .hero--section {
+      display: flex;
+      flex-direction: column-reverse;
+      padding-bottom: 70px;
+    }
+    .hero--section--title,
+    .hero--section-description {
+      text-align: center;
+      font-size: 16px;
+    }
+
+    .hero--section--content,
+    .hero--section--content--box {
+      align-items: center;
+    }
+    .portfolio--container-box {
+      gap: 30px;
+    }
+
+
+    .hero--section--title {
+      font-size: 35px;
+      line-height: 40px;
+    }
+    .eduzolve-mission{
+      font-size: 10px;
+    }
+
+  }
