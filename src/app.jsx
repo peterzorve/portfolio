@@ -1,7 +1,7 @@
 // https://www.youtube.com/watch?v=WbV3zRgpw_E&t=6960s
 import React, { useState }  from 'react'
-// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { HashRouter  as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+// import { HashRouter  as Router, Routes, Route } from 'react-router-dom';
 
 // Screen
 import Navbar from './components/Navbar/Navbar'
